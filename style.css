@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  /* height: 70px; */
+  width: 100%;
+  background-color: rgb(47, 148, 216);
+  display: flex;
+  position: fixed;
+  justify-content: center;
+}
+.container {
+  /* height: 70px; */
+  width: 90%;
+  display: flex;
+}
+.header_title {
+  /* height: 70px; */
+  width: 30%;
+  /* color: white; */
+  color: black;
+  line-height: 70px;
+  text-align: center;
+}
+.header_container {
+  justify-content: space-between;
+}
+.nav {
+  /* height: 70px; */
+  width: 30%;
+  /* background: orange; */
+  display: flex;
+  justify-content:flex-end; 
+}
+.nav_items {
+  /* height: 70px; */
+  color: white;
+  width: 25%;
+  line-height: 70px;
+  cursor: pointer;
+  text-align: center;
+  
+  /* background-color: rgb(209, 21, 168); */
+ 
+}
+.nav_items:hover {
+  background-color: white;
+  color: black;
+
+ 
+  
+}
+.content{
+    height: 86vh;
+    width: 100%; ;
+    /* background-color: rgb(47, 148, 216); */
+    /* background-color: red; */
+    background-image: url("https://analyticsinsight.b-cdn.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* opacity: .5; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content_area{
+min-height: 200px;
+width: 40%;
+/* background: rgb(221, 8, 8); */
+/* background-color: rgb(138, 121, 121); */
+opacity: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.content_title{
+padding: 20px;
+height: 25px;
+/* background-color: blue; */
+width: 50%;
+text-align: center;
+line-height: 25px;
+margin-bottom: 25px;
+color: white;
+
+}
+.content_text{
+
+  width: 80%;
+  /* background-color: bisque; */
+  color: white;
+}
+
+.skills{
+  float: right;
+  background-color: rgb(138, 121, 121,0.5);
+  
+}
+.highlight{
+  height: 100px;
+  width: 100%;
+  /* background-color:black; */
+  background-color: rgb(47, 148, 216);
+  display: flex;
+  justify-content:space-evenly;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.highlight_items
+{
+  height: 100px;
+  width: 20%;
+  background-color: lightsalmon;
+  text-align: center;
+  line-height: 100PX;
+}
+.h_title{
+  color: white;
+}
+.table_display{
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(47, 148, 216);
+  padding-bottom: 100px;
+ 
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+table tr:nth-child(odd){
+  background-color: aliceblue;
+}
+table tr:nth-child(even){
+  background-color:lightgray;
+}
+
+.hobbies{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.hobbies >h4{
+  padding: 2px;
+}
+
+/* presentation */
+.presentation{
+  background-color: azure;
+  padding: 25px;
+}
+.presentation h3{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.presentation ul{
+  padding-left: 30px;
+}
+
+
+/* Contact */
+.contact{
+  display: flex;
+ 
+  background-color: lightsalmon;
+}
+
+  .address{
+    width: 70%;
+    text-align: center;
+   
+    
+}
+.contact_details{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+}
+ .span{
+padding-bottom: 5px;
+align-items: flex-end;
+  
+}
+
+
+@media only  screen and (max-width: 900px){
+
+  /* header */
+  .header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(47, 148, 216);
+    display: flex;
+    position: fixed;
+    justify-content: center;
+  }
+  .container {
+    height: 70px;
+    width: 90%;
+    display: flex;
+  }
+  .header_title {
+    height: 70px;
+    width: 45%;
+    /* color: white; */
+    color: black;
+    line-height: 70px;
+    text-align: center;
+  }
+  .header_title h1{
+    font-size:medium;
+  }
+  .header_container {
+    justify-content: space-between;
+  }
+  .nav {
+    height: 70px;
+    width: 50%;
+    /* background: orange; */
+    display: flex;
+    justify-content:center; 
+  }
+  .nav_items {
+    height: 70px;
+    color: white;
+    width: 40%;
+    line-height: 70px;
+    cursor: pointer;
+    text-align: center;
+    
+    /* background-color: rgb(209, 21, 168); */
+   
+  }
+  .nav_items:hover {
+    background-color: white;
+    color: black;
+  
+   
+    
+  }
+  /* header */
+
+  .content{
+    height: 86vh;
+    width: 100%; ;
+    /* background-color: rgb(47, 148, 216); */
+    /* background-color: red; */
+    background-image: url("https://analyticsinsight.b-cdn.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* opacity: .5; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content_area{
+  min-height: 200px;
+  width: 80%;
+  /* background: rgb(221, 8, 8); */
+  /* background-color: rgb(138, 121, 121); */
+  margin-top: 25px;
+  /* opacity: 1; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .content_title{
+    margin-top: 10px;
+  padding: 20px;
+  height: 25px;
+  /* background-color: blue; */
+  width: 50%;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: white;
+  
+  }
+  .content_text{
+  
+    width: 80%;
+    /* background-color: bisque; */
+    color: white;
+  }
+  
+  .skills{
+    margin-top: 10px;
+   
+    background-color: rgb(138, 121, 121,0.5);
+    
+  }
+  /* content */
+
+  .highlight_items
+  {
+    height: 60px;
+    width: 23%;
+    background-color: lightsalmon;
+    text-align: center;
+    line-height: 60PX;
+  }
+  .h_title{
+    font-size: medium;
+  }
+   caption h1{
+     font-size: medium;
+   }
+
+
+   .table_display{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 148, 216);
+    padding-bottom: 80px;
+   
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    text-align: center;
+  }
+  table tr:nth-child(odd){
+    background-color: aliceblue;
+  }
+  table tr:nth-child(even){
+    background-color:lightgray;
+  }
+   
+   .contact{
+    display:block;
+    width: 100%;
+    background-color: lightsalmon;
+     /* align-items: center; */
+    justify-content: center; 
+  }
+  
+  .address{
+    width: 100%;
+    text-align: center;
+    /* background-color: red; */
+    border-bottom: 1px solid black;
+}
+   .contact_details{
+      width:100%;
+
+  }
+
+    .contact_details span{
+     
+      margin-left: auto;
+      margin-right: auto;
+       /* display: block; */
+   }
+   }
